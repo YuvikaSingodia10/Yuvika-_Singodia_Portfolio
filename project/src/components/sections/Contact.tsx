@@ -3,6 +3,11 @@ import { Mail, Phone, MapPin, Github, Linkedin } from 'lucide-react';
 import { profileData } from '../../data/portfolio';
 import { SectionWrapper, SectionHeader } from '../ui';
 
+const getGithubUsername = (url: string) => {
+  const match = url.match(/github\.com\/([^\/\?#]+)/i);
+  return match ? match[1] : url;
+};
+
 const contactInfo = [
   {
     icon: Mail,
@@ -21,7 +26,7 @@ const contactInfo = [
   {
     icon: Github,
     label: 'GitHub',
-    value: 'yuvikasingodia',
+    value: getGithubUsername(profileData.github),
     href: profileData.github,
     description: 'Check out my open source work',
   },

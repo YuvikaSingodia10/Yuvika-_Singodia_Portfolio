@@ -23,7 +23,38 @@ export const stats = [
   { label: 'Projects Completed', value: '4+' },
   { label: 'Certifications', value: '6+' },
   { label: 'Technologies', value: '15+' },
-  
+];
+
+export type Achievement = {
+  id: number;
+  icon: 'trophy' | 'pen' | 'code';
+  title: string;
+  date: string;
+  description: string;
+};
+
+export const achievements: Achievement[] = [
+  {
+    id: 1,
+    icon: 'trophy',
+    title: 'Outstanding Intern Performance',
+    date: 'Jan 2025',
+    description: 'Recognized for delivering high-quality work and fast learning in internship projects.',
+  },
+  {
+    id: 2,
+    icon: 'pen',
+    title: 'Technical Article Published',
+    date: 'Jun 2025',
+    description: 'Published a tutorial on building AI-powered web interfaces with React and Tailwind CSS.',
+  },
+  {
+    id: 3,
+    icon: 'code',
+    title: 'Project Showcase Winner',
+    date: 'Sep 2025',
+    description: 'Won recognition for a polished full-stack application presented during a coding showcase.',
+  },
 ];
 
 export const skills = {
