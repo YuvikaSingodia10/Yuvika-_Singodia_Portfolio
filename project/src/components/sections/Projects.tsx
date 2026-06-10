@@ -84,7 +84,13 @@ function ProjectCard({
 
           {/* Buttons */}
           <div className="mt-6 flex gap-3">
-            <Button href={project.githubUrl} target="_blank" variant="primary" size="sm">
+            <Button
+              href={encodeURI(project.githubUrl.trim())}
+              target="_blank"
+              rel="noopener noreferrer"
+              variant="primary"
+              size="sm"
+            >
               <Github className="w-4 h-4" />
               View Source
             </Button>
