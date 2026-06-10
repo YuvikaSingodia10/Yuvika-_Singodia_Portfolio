@@ -7,7 +7,7 @@ export const profileData = {
   emailDisplay: 'yuvikasingodia@gmail.com',
   phone: '+91-9216630253',
   location: 'Jaipur, India',
-  github: 'https://github.com/yuvikasingodia',
+  github: 'https://github.com/YuvikaSingodia10',
   linkedin: 'https://linkedin.com/in/yuvikasingodia',
 };
 
@@ -75,7 +75,7 @@ export const projects = [
     ],
     tech: ['Python', 'MediaPipe', 'OpenCV', 'OCR'],
     image: '/project_images/1_airwrite_ai.png',
-    githubUrl: 'https://github.com/yuvikasingodia',
+    githubUrl: 'https://github.com/YuvikaSingodia10/airwrite_AI',
     featured: true,
   },
   {
@@ -92,7 +92,7 @@ export const projects = [
     ],
     tech: ['React.js', 'Node.js', 'MongoDB', 'Express.js', 'Tailwind CSS'],
     image: '/project_images/4_hireblind.png',
-    githubUrl: 'https://github.com/yuvikasingodia',
+    githubUrl: 'https://github.com/YuvikaSingodia10/COPULAR_PROJECT',
     featured: true,
   },
   {
@@ -108,7 +108,7 @@ export const projects = [
     ],
     tech: ['HTML', 'CSS', 'JavaScript'],
     image: '/project_images/2_cadence.png',
-    githubUrl: 'https://github.com/yuvikasingodia',
+    githubUrl: 'https://github.com/YuvikaSingodia10/Cadence---Music-Player',
     featured: false,
   },
   {
@@ -124,7 +124,7 @@ export const projects = [
     ],
     tech: ['React.js', 'Tailwind CSS', 'LocalStorage'],
     image: '/project_images/3_Expense_tracker.png',
-    githubUrl: 'https://github.com/yuvikasingodia',
+    githubUrl: 'https://github.com/YuvikaSingodia10/Expense_Tracker',
     featured: false,
   },
 ];
