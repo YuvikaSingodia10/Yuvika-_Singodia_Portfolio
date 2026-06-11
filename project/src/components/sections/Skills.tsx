@@ -25,13 +25,13 @@ function SkillBar({ name, level, index }: { name: string; level: number; index: 
         <span className="text-sm font-medium text-gray-700 dark:text-gray-300 group-hover:text-gray-900 dark:group-hover:text-white transition-colors">
           {name}
         </span>
-        <span className="text-sm text-gray-500 dark:text-gray-400">{level}%</span>
+        <span className="text-sm text-gray-500 dark:text-gray-400">{level}/10</span>
       </div>
       <div className="h-2.5 rounded-full bg-gray-200 dark:bg-gray-700/50 overflow-hidden">
         <motion.div
           className="h-full rounded-full bg-gradient-to-r from-light-accent-blue to-light-accent-purple dark:from-dark-accent-blue dark:to-dark-accent-purple"
           initial={{ width: 0 }}
-          whileInView={{ width: `${level}%` }}
+          whileInView={{ width: `${level * 10}%` }}
           viewport={{ once: true }}
           transition={{ delay: index * 0.1 + 0.2, duration: 0.8, ease: 'easeOut' }}
         />

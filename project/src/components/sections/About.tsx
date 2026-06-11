@@ -20,15 +20,15 @@ const highlights = [
   },
   {
     icon: Calendar,
-    label: 'Experience',
-    value: '2+ Years',
-    sub: 'Building Projects',
+    label: 'Internships',
+    value: '3 Completed',
+    sub: 'Hands-on Training',
   },
   {
     icon: Briefcase,
     label: 'Focus',
-    value: 'Machine Learning & AI',
-    sub: 'Web + ML/AI',
+    value: 'AI & Machine Learning',
+    sub: 'Learning & Building',
   },
 ];
 
@@ -40,7 +40,7 @@ export function About() {
 
       <SectionHeader
         title="About Me"
-        subtitle="Passionate about building digital experiences that make an impact"
+        subtitle="Passionate about learning, building, and growing through practical projects and training"
       />
 
       <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -116,16 +116,16 @@ export function About() {
           <div className="space-y-4 text-body">
             <p>{profileData.bio}</p>
             <p>
-              I have hands-on experience working with modern technologies including{' '}
+              I am building skills with modern technologies like{' '}
               <span className="text-light-accent-blue dark:text-dark-accent-blue font-medium">
-                Java, Python, React.js, MySQL
+                Java, React.js, Python, MySQL
               </span>{' '}
-              and various other tools that power today's digital landscape.
+              as part of projects, internships, and hands-on learning.
             </p>
           </div>
 
           {/* Stats Grid */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mt-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-8">
             {stats.map((stat, index) => (
               <motion.div
                 key={stat.label}

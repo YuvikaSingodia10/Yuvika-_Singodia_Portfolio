@@ -1,8 +1,8 @@
 export const profileData = {
   name: 'Yuvika Singodia',
-  role: 'IT Engineering Student | Software Developer | AI Enthusiast',
-  tagline: 'Building the future, one line of code at a time',
-  bio: 'I enjoy turning ideas into elegant web experiences that bridge modern UI, responsive design, and data-driven engineering. I bring clarity and polish to every project, especially when applying Java, React, and machine learning principles.',
+  role: 'B.Tech IT Student | AI & Machine Learning Enthusiast | Aspiring Software Developer',
+  tagline: 'Building AI and machine learning solutions with modern technologies',
+  bio: 'I am a B.Tech Information Technology student passionate about artificial intelligence, machine learning, and problem solving. I enjoy building modern web applications, exploring AI models, and creating user-friendly digital experiences. Through projects, internships, and continuous learning, I am developing strong skills in Java, Python, React, AI technologies, and machine learning concepts.',
   email: 'yuvikasingodia@gmail.com',
   emailDisplay: 'yuvikasingodia@gmail.com',
   phone: '+91-9216630253',
@@ -12,15 +12,15 @@ export const profileData = {
 };
 
 export const typingPhrases = [
-  'Web Developer',
-  'Java Developer',
-  'AI Learner',
+  'Aspiring Software Developer',
+  'IT Engineering Student',
+  'AI Enthusiast',
+  'Machine Learning Learner',
   'Problem Solver',
-  'Creative Thinker',
 ];
 
 export const stats = [
-  { label: 'Projects Completed', value: '4+' },
+  { label: 'Projects Built', value: '4+' },
   { label: 'Certifications', value: '6+' },
   { label: 'Technologies', value: '15+' },
 ];
@@ -53,47 +53,63 @@ export const achievements: Achievement[] = [
     icon: 'code',
     title: 'Project Showcase Winner',
     date: 'Sep 2025',
-    description: 'Won recognition for a polished full-stack application presented during a coding showcase.',
+    description: 'Won recognition for a polished AI-focused web application presented during a coding showcase.',
   },
 ];
 
 export const skills = {
   frontend: [
-    { name: 'HTML', level: 95, icon: 'code' },
-    { name: 'CSS', level: 90, icon: 'palette' },
-    { name: 'JavaScript', level: 85, icon: 'braces' },
-    { name: 'React.js', level: 80, icon: 'atom' },
-    { name: 'Tailwind CSS', level: 85, icon: 'wind' },
+    { name: 'HTML', level: 9, icon: 'code' },
+    { name: 'CSS', level: 9, icon: 'palette' },
+    { name: 'JavaScript', level: 8, icon: 'braces' },
+    { name: 'React.js', level: 7, icon: 'atom' },
+    { name: 'Tailwind CSS', level: 8.5, icon: 'wind' },
   ],
   programming: [
-    { name: 'Java', level: 90, icon: 'coffee' },
-    { name: 'Python', level: 80, icon: 'snake' },
-    { name: 'C++', level: 70, icon: 'cpu' },
+    { name: 'Java', level: 9, icon: 'coffee' },
+    { name: 'Python', level: 8, icon: 'snake' },
+    { name: 'C++', level: 7, icon: 'cpu' },
   ],
   backend: [
-    { name: 'Node.js', level: 75, icon: 'server' },
-    { name: 'Express.js', level: 70, icon: 'git-branch' },
+    { name: 'Node.js', level: 7.5, icon: 'server' },
+    { name: 'Express.js', level: 7, icon: 'git-branch' },
   ],
   database: [
-    { name: 'MongoDB', level: 70, icon: 'database' },
-    { name: 'MySQL', level: 75, icon: 'database' },
+    { name: 'MongoDB', level: 7, icon: 'database' },
+    { name: 'MySQL', level: 7.5, icon: 'database' },
   ],
   tools: [
-    { name: 'Git', level: 85, icon: 'git-branch' },
-    { name: 'Linux', level: 70, icon: 'terminal' },
-    { name: 'VS Code', level: 90, icon: 'code-2' },
-    { name: 'IntelliJ IDEA', level: 75, icon: 'code-2' },
+    { name: 'Git', level: 8.5, icon: 'git-branch' },
+    { name: 'Linux', level: 7, icon: 'terminal' },
+    { name: 'VS Code', level: 9, icon: 'code-2' },
+    { name: 'IntelliJ IDEA', level: 7.5, icon: 'code-2' },
   ],
   design: [
-    { name: 'UI Design', level: 75, icon: 'layout' },
-    { name: 'Video Editing', level: 95, icon: 'video' },
-    { name: 'Power BI', level: 75, icon: 'graph' },
+    { name: 'UI Design', level: 7.5, icon: 'layout' },
+    { name: 'Video Editing', level: 9.5, icon: 'video' },
+    { name: 'Power BI', level: 7.5, icon: 'graph' },
   ],
 };
 
 export const projects = [
   {
     id: 1,
+    title: 'BridgeDrop',
+    subtitle: 'Resource Sharing Platform',
+    description: 'A platform designed to simplify the process of sharing, managing, and accessing resources efficiently. The project focuses on user-friendly design, seamless navigation, and practical problem-solving through technology.',
+    features: [
+      'Resource sharing workflow',
+      'Organized content management',
+      'Clean navigation and responsive UI',
+      'Practical problem-solving features',
+    ],
+    tech: ['React.js', 'Tailwind CSS', 'JavaScript', 'Node.js'],
+    image: '/project_images/5_bridge_drop.png',
+    githubUrl: 'https://github.com/YuvikaSingodia10/BridgeDrop',
+    featured: false,
+  },
+  {
+    id: 2,
     title: 'AirWrite',
     subtitle: 'Touchless Text Input System',
     description: 'A real-time touchless text input system that allows users to write in the air using hand gestures through a webcam.',
@@ -110,7 +126,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 2,
+    id: 3,
     title: 'HireBlind',
     subtitle: 'Smart Hiring Platform',
     description: 'A modern smart hiring platform developed during a hackathon focused on making recruitment more skill-based, unbiased, and efficient. Helps companies evaluate candidates beyond resumes.',
@@ -127,7 +143,7 @@ export const projects = [
     featured: true,
   },
   {
-    id: 3,
+    id: 4,
     title: 'Cadence',
     subtitle: 'Music Website',
     description: 'A responsive and visually engaging music website created using HTML, CSS, and JavaScript with a focus on clean user experience.',
@@ -143,7 +159,7 @@ export const projects = [
     featured: false,
   },
   {
-    id: 4,
+    id: 5,
     title: 'Expense Tracker',
     subtitle: 'Financial Management App',
     description: 'A modern expense tracking web application for managing daily expenses efficiently with a clean, user-friendly interface.',
@@ -158,6 +174,7 @@ export const projects = [
     githubUrl: 'https://github.com/YuvikaSingodia10/Expense_Tracker',
     featured: false,
   },
+  
 ];
 
 export const certifications = [
@@ -201,8 +218,8 @@ export const certifications = [
 export const navLinks = [
   { name: 'Home', href: '#home' },
   { name: 'About', href: '#about' },
-  { name: 'Experience', href: '#experience' },
   { name: 'Skills', href: '#skills' },
+  { name: 'Internships & Training', href: '#internships' },
   { name: 'Projects', href: '#projects' },
   { name: 'Certifications', href: '#certifications' },
   { name: 'Contact', href: '#contact' },

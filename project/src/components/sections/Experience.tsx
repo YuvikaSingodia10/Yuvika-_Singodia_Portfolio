@@ -37,13 +37,13 @@ const experienceEntries = [
 
 export function Experience() {
   return (
-    <SectionWrapper id="experience" className="section-padding relative overflow-hidden">
+    <SectionWrapper id="internships" className="section-padding relative overflow-hidden">
       <div className="absolute -top-16 left-0 w-72 h-72 rounded-full bg-light-accent-blue/10 dark:bg-dark-accent-blue/10 blur-3xl" />
       <div className="absolute -bottom-16 right-0 w-72 h-72 rounded-full bg-light-accent-purple/10 dark:bg-dark-accent-purple/10 blur-3xl" />
 
       <SectionHeader
-        title="Experience"
-        subtitle="A premium timeline of my internship journey, designed for clarity, impact, and recruiter-friendly readability."
+        title="Internships & Training"
+        subtitle="A timeline of internships and training experiences that highlight my growing skills and practical learning." 
       />
 
       <div className="relative max-w-6xl mx-auto">
@@ -86,9 +86,9 @@ export function Experience() {
                         </div>
                       </div>
 
-                      <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-300">
+                      <ul className="space-y-3 text-sm text-gray-600 dark:text-gray-300 text-left">
                         {item.details.map((detail) => (
-                          <li key={detail} className="flex gap-3">
+                          <li key={detail} className="flex items-start gap-3">
                             <span className="mt-1 inline-flex h-2.5 w-2.5 rounded-full bg-light-accent-blue dark:bg-dark-accent-blue" />
                             <span>{detail}</span>
                           </li>

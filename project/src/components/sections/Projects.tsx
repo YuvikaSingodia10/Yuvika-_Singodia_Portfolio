@@ -111,7 +111,7 @@ export function Projects() {
 
       <SectionHeader
         title="Featured Projects"
-        subtitle="A collection of projects I've built, from AI-powered applications to full-stack platforms"
+        subtitle="A collection of projects I've built, from AI-powered applications to modern web platforms"
       />
 
       <div className="space-y-10">
